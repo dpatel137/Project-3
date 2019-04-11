@@ -96,3 +96,60 @@ p {
   position: relative;
   color: #990033;
 }
+
+@media only screen and (max-width: 700px) {
+  h1 {
+  font-size: 1.5em;
+  }
+	
+  p {
+  font-size: 80%;  		
+  }
+
+  .images {
+  float: none;
+  width: 270px;
+  height: 200px; 
+  position: relative;	
+  box-shadow: 3px 5px 10px;  
+  }  
+
+  h2 {
+  font-size: 15px;  		
+  }
+	 
+  #japanpara {
+  margin-bottom: 50px;
+  position: relative;
+  padding-left: 0px;
+  }
+
+  #spainpara {
+  margin-bottom: 50px;
+  position: relative;
+  padding-left: 0px;
+  }
+
+  #francepara {
+  margin-bottom: 50px;
+  position: relative;
+  padding-left: 0px;
+  }
+
+  #mexicopara {
+  margin-bottom: 50px;
+  position: relative;
+  padding-left: 0px;
+  }
+
+  #italypara {
+  padding-bottom: 20px;
+  position: relative;
+  padding-left: 0px;
+  }
+
+  nav#horz ul li a { 
+  width: 60px;
+  padding: 1px 0px 10px 0px;   
+  }	
+}
