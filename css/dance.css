@@ -41,7 +41,7 @@ nav#horz ul li a {
   text-decoration: none;
   width: 100px;
   padding: 10px 0px 30px 0px;
-  border-radius: 4px;	
+  border-radius: 5px;	
 }
 
 nav#horz ul li a:hover {
@@ -107,8 +107,18 @@ iframe {
 
   body {
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,85,200,1) 35%, rgba(0,212,230,1) 100%);    
-  }		
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,85,200,1) 35%, rgba(0,150,180,1) 100%);    
+  }
+
+  #dancers {
+  width: 250px;
+  height: 190px;	
+  }
+ 
+  nav#horz ul li a { 
+  width: 60px;
+  padding: 1px 0px 10px 0px;   
+  }	
 }
   	
 
