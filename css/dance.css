@@ -80,7 +80,7 @@ ol {
 }
 
 iframe {
-  margin: 200px 60px 20px 0;
+  margin: 200px 0 20px 0;
   width: 400px;	
   height: 220px;
   box-shadow: 3px 10px 18px;	
@@ -94,5 +94,21 @@ iframe {
   h1 {
   font-size: 2.5em;
   }
-  	
+  
+  #para_video {
+  margin: 210px 0 0 10px;	
+  }
+  
+  iframe {
+  margin: 270px 0 20px 0;
+  width: 300px;
+  height: 190px;  
+  }
+
+  body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,85,200,1) 35%, rgba(0,212,230,1) 100%);    
+  }		
 }
+  	
+
