@@ -1,15 +1,16 @@
 #wrapper {
-  width: 850px;
+  width: 800px;
   height: 600px;
-  background-color: #c00;
+  background-color: #5562D7;
   margin:0 auto;
   overflow: hidden;
 }
-#canvas {
-  width: 700px;
+#container {
+  width: 800px;
   height: 500px;
-  background-color: #ccc;
-  margin: 30px auto;
+  background-color: white;
+  margin: 50px auto;
+  box-shadow: 10px 5px 10px;  
 }
 nav {
   background-color: #000060;

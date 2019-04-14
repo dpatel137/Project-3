@@ -1,9 +1,9 @@
-function init(){
-  var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(41.835117, -87.627130);
+function initMap(){
+  var el = document.getElementById('container');
+  var myLocation = new google.maps.LatLng(41.831395, -87.627228);
   var mapOptions = {
     center: myLocation,
-    zoom: 18,
+    zoom: 19,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -15,11 +15,11 @@ function init(){
   var marker = new google.maps.Marker({
     position: myLocation,
     map: myMap,
-    animation: google.maps.Animation.BOUNCE,
+    animation: google.maps.Animation.DROP,
     icon: 'IIT-Icon.png'
   });
 
-  var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
+  var contentString = '<h1>IIT Tower</h1>';
 
   var infowindow = new google.maps.InfoWindow({
       content: contentString
@@ -31,4 +31,4 @@ function init(){
 
 }
 
-google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', initMap);
